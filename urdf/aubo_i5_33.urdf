@@ -11,7 +11,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link0.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link0.3ds"/>
       </geometry>
      <material name="black">
         <color rgba="0.25098 0.25098 0.25098 1"/>
@@ -20,7 +20,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link0.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link0.STL"/>
       </geometry>
     </collision>
   </link>
@@ -33,7 +33,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link1.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link1.3ds"/>
       </geometry>
        <material name="orange">
         <color rgba="1 0.65098 0 1"/>
@@ -42,7 +42,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link1.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link1.STL"/>
       </geometry>
     </collision>
   </link>
@@ -63,7 +63,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link2.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link2.3ds"/>
       </geometry>
        <material name="orange">
         <color rgba="1 0.65098 0 1"/>
@@ -72,7 +72,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link2.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link2.STL"/>
       </geometry>
     </collision>
   </link>
@@ -93,7 +93,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link3.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link3.3ds"/>
       </geometry>
         <material name="orange">
         <color rgba="1 0.65098 0 1"/>
@@ -102,7 +102,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link3.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link3.STL"/>
       </geometry>
     </collision>
   </link>
@@ -123,7 +123,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link4.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link4.3ds"/>
       </geometry>
      <material name="orange">
         <color rgba="1 0.65098 0 1"/>
@@ -132,7 +132,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link4.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link4.STL"/>
       </geometry>
     </collision>
   </link>
@@ -153,7 +153,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link5.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link5.3ds"/>
       </geometry>
       <material name="orange">
         <color rgba="1 0.65098 0 1"/>
@@ -162,7 +162,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link5.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link5.STL"/>
       </geometry>
     </collision>
   </link>
@@ -183,7 +183,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/visual/link6.3ds"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/visual/link6.3ds"/>
       </geometry>
       <material name="black">
         <color rgba="0.25098 0.25098 0.25098"/>
@@ -192,7 +192,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i5_33/collision/link6.STL"/>
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i5_33/collision/link6.STL"/>
       </geometry>
     </collision>
   </link>
