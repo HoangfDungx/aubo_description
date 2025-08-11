@@ -24,7 +24,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link0.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link0.DAE" />
       </geometry>
       <material
         name="">
@@ -38,7 +38,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link0.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link0.STL" />
       </geometry>
     </collision>
   </link>
@@ -64,7 +64,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link1.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link1.DAE" />
       </geometry>
       <material
         name="">
@@ -78,7 +78,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link1.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link2.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link2.DAE" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link2.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -184,7 +184,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link3.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link3.DAE" />
       </geometry>
       <material
         name="">
@@ -198,7 +198,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link3.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link3.STL" />
       </geometry>
     </collision>
   </link>
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link4.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link4.DAE" />
       </geometry>
       <material
         name="">
@@ -258,7 +258,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link4.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link4.STL" />
       </geometry>
     </collision>
   </link>
@@ -304,7 +304,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link5.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link5.DAE" />
       </geometry>
       <material
         name="">
@@ -318,7 +318,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link5.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -364,7 +364,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/visual/link6.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/visual/link6.DAE" />
       </geometry>
       <material
         name="">
@@ -378,7 +378,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_T12/collision/link6.STL" />
+          filename="file://$(find aubo_description)/meshes/aubo_T12/collision/link6.STL" />
       </geometry>
     </collision>
   </link>

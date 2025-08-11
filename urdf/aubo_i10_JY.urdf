@@ -12,7 +12,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/visual/link0.DAE" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link0.DAE" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -21,7 +21,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link0.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link0.STL" />
       </geometry>
     </collision>
   </link>
@@ -37,7 +37,7 @@
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aubo_description/meshes/aubo_i10_JY/visual/link1.DAE" />
+          filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link1.DAE" />
       </geometry>
       <material name="">
         <color rgba="0.89804 0.91765 0.92941 1" />
@@ -46,7 +46,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link1.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -71,7 +71,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/visual/link2.DAE" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link2.DAE" />
       </geometry>
       <material name="">
         <color rgba="0.89804 0.91765 0.92941 1" />
@@ -80,7 +80,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link2.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -105,7 +105,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/visual/link3.DAE" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link3.DAE" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -114,7 +114,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link3.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link3.STL" />
       </geometry>
     </collision>
   </link>
@@ -139,7 +139,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/visual/link4.DAE" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link4.DAE" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -148,7 +148,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link4.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link4.STL" />
       </geometry>
     </collision>
   </link>
@@ -173,7 +173,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/visual/link5.DAE" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link5.DAE" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -182,7 +182,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link5.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -207,7 +207,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/visual/link6.DAE" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/visual/link6.DAE" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -216,7 +216,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://aubo_description/meshes/aubo_i10_JY/collision/link6.STL" />
+        <mesh filename="file://$(find aubo_description)/meshes/aubo_i10_JY/collision/link6.STL" />
       </geometry>
     </collision>
   </link>
