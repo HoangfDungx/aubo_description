@@ -12,15 +12,15 @@
     <link name="ee_link">
       <collision>
         <geometry>
-          <box size="0.1 0.1 0.2"/>
+          <box size="0.1 0.1 0.16"/>
         </geometry>
-        <origin rpy="0 0 0" xyz="-0.1 0 0"/>
+        <origin rpy="0 0 0" xyz="0 0 -0.12"/>
       </collision>
       <visual>
         <geometry>
-          <box size="0.1 0.1 0.2"/>
+          <box size="0.1 0.1 0.16"/>
         </geometry>
-        <origin rpy="0 0 0" xyz="-0.1 0 0"/>
+        <origin rpy="0 0 0" xyz="0 0 -0.12"/>
       </visual>
     </link>
     
